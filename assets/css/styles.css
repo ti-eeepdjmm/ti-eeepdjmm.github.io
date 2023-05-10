@@ -1,11 +1,83 @@
 /* tabela */
+:root{
+    --cor-primaria:#1ca7ec;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     background-color: rgb(248, 248, 248);
 }
 
+.container, .projeto-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container{
+    padding: 10px 100px;
+}
+
+#projetos-github{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+h2{
+    color: var(--cor-primaria);
+}
+
+h1, h2{
+    text-align: center;
+}
+
+/* card */
+.projeto-card{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.projeto-card > h2{
+    font-size: 1.2rem;
+}
+
+.projeto-imagem{
+    background-color: #1ca7ec;
+    overflow: hidden;
+    align-self: flex-start;
+    width: 100%;
+    height: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
+} 
+.projeto-imagem > img{
+    width: 250%;
+    opacity: 0.6;
 }
+
+a{
+    text-decoration: none;
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--cor-primaria);
+}
+
+a:hover{
+    background-color:white;
+    color: var(--cor-primaria);
+   
+}
+
+
+
