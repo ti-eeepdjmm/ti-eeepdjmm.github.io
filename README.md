@@ -4,7 +4,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Site Infor**
 | :label: Tecnologias | HTML, CSS, Javascript
-| :rocket: URL         |
+| :rocket: URL         | https://ti-eeepdjmm.github.io/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 <!-- ![](https://github.com/rickalves/orgs-app/blob/main/src/assets/logo.png?text=imagem+lindona+do+meu+projeto#vitrinedev) -->
